@@ -1,0 +1,41 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Fine-tuned model output
+model/training/output/
+model/training/checkpoint-*/
+
+# Dataset
+data/raw/
+data/processed/
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
